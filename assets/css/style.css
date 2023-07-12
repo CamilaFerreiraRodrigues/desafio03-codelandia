@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: blue;
+    width: 100%;
+    
+    
+}
+
+/* header */
+.header{
+    background: #D7D4FF;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 250px;
+    grid-template-areas: 'content-txt content-img';
+}
+
+
+.content-text{
+    width: 200px;
+    margin: 0 auto;
+    
+
+}
+.content-img{
+    grid-area: 'content-img';
+
+
+}
+.photo{
+    height: 250px;
+    width: 292px;
+    margin-left: 15%;
+    
+    
+    
+}
+
+/* body */
+
+.body-tudo{
+    width: 100%;
+    height: 70%;
+    background-color: #F9F9F9;
+    padding: 3%;  
+}
+
+.body-content{
+    height: 95%;
+    width: 80%;
+    background: #F9F9F9;
+    display: flex;
+    margin-left: 10%;
+
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.box{
+    background: #FFFFFF;
+    width: 250px;
+    height: 300px;
+    box-shadow: 3px 3px 3px #c0bebed3;
+    border-radius: 3px;
+}
+
+.box-color1{
+    width: 250px;
+    height:150px ;
+    background: #FF6363;
+
+}
+.box-color1{
+    width: 250px;
+    height:150px ;
+    background: #FF6363;
+
+}
+.box-color2{
+    width: 250px;
+    height:150px ;
+    background: #63ECFF;
+
+
+}
+.box-color3{
+    width: 250px;
+    height:150px ;
+    background: #F363FF;
+
+
+}
+.box-color4{
+    width: 250px;
+    height:150px ;
+    background: #63FF73;
+
+
+}
+.box-color5{
+    width: 250px;
+    height:150px ;
+    background: #FFDD63;
+
+
+}
+.box-color6{
+    width: 250px;
+    height:150px ;
+    background: #6663FF;
+
+
+}
+
+/* footer */
+
+
+.footer-content{
+    position: relative;
+    margin-top:0 ;
+    background: #D7D4FF;
+    height: 500px;
+    width: 100%;
+    padding: 4%;
+}
+
+.footer-form{
+    background-color: #D7D4FF;
+    width: 400px;
+    height: 380px;
+    margin: auto;  
+}
+
+.footer-form h1{
+    text-align: center;
+}
+
+.footer-form input, .footer-form textarea{
+    width: 400px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    margin: 5px 0 ;
+    text-indent: 5px; /*para o ajustar a posição do placeholder*/
+    resize: none; /*para impedir que o usuário mude o temanho do texrarea*/
+
+}
+
+.footer-form textarea{
+    height: 100px;
+}
+
+.footer-form button{
+    width: 400px;
+    height: 30px;
+    margin-top: 10px ;
+    border: none;
+    border-radius: 3px;
+    background: #6C63FF;
+
+}
