@@ -25,13 +25,15 @@
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 300px;
     grid-template-areas: 'content-txt content-img';
-    padding: 2% 5% 0 10%;
+    
 }
 
 
 .content-text{
     width: 300px;
     font-weight: 300;
+    margin: 10% 45%;
+    
 }
 .content-text h1{
     font-family: Merriweather;
@@ -74,12 +76,14 @@
 }
 .content-img{
     grid-area: 'content-img';
+    padding-left: 6%;
 
 
 }
 .photo{
+    margin: 0 auto;
     height: 300px;
-    width: 350.4px;
+    width: 350px;
     
     
     
@@ -218,7 +222,7 @@
     font-size: 22px;
     font-weight: 400;
     color:#2B2B2B ;
-    margin: 5%;
+    margin: 5% auto;
 
 }
 
@@ -254,7 +258,7 @@
     text-align: center;
 }
 
-@media (max-width: 600px){
+@media (max-width: 760px){
     .header{
         display:grid;
         grid-template-rows: 200px 1fr ;
@@ -305,4 +309,8 @@
         line-height: 30px;
     }
     
+    .footer-form input, .footer-form textarea, .footer-form button{
+        width: 95%;
+        margin:  1.5% auto;
+    }
 }
